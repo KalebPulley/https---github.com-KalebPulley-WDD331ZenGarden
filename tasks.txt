@@ -1,8 +1,9 @@
 these tasks need to be done
-purpose, colors, navigation, and wireframes
+purpose, and wireframes
 
 these tasks are being done
-kaleb: typography
+kaleb: typography, navigation
+Giselle: colors, img
 
 These tasks have been completed
-example task b
+example task by kaleb 2/4/22
