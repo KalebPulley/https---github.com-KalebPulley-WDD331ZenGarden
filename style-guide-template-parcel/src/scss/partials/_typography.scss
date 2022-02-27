@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Tangerine:wght@700&display=swap');
 
 // fonts
-$primary-font: 'Tangerine', 'cursive';
-$secondary-font: 'Rubik', sans-serif;
+$primary-font:'Rubik', sans-serif;
+$secondary-font: 'Tangerine', 'cursive';
 
 h1,
 h2 {
-  font-family: $secondary-font;
   color: $color-2;
 }
 
 h1 {
+  font-family: $secondary-font;
   font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.2;

@@ -30,3 +30,64 @@ header{
   padding: 10px;
 }
 
+@media (min-width: 30em) {
+  .page-wrapper{
+    border: 5px solid black;
+    padding: 2em;
+  }
+  header{
+    height: 10em;
+    position: relative;
+    text-align: center;
+    border-bottom: 0px;
+  }
+  .summary p:first-of-type{
+    border: 5px solid black;
+    padding: 1em;
+    margin-top: 0;
+    border-top: 0px;
+  }
+  .intro, .main{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .sidebar{
+    padding: 1em;
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+    top: 10em;
+    width: 20%;
+  }
+  .intro{
+    margin-top: 10em;
+  }
+  .preamble{
+    margin-top: 1em;
+    border: 5px solid black;
+    padding: 1em;
+  }
+  .preamble > h3{
+    text-align: center;
+  }
+  .main div{
+    margin-top: 1em;
+    border: 5px solid black;
+    padding: 1em;
+
+  }
+  footer{
+    margin-top: 1em;
+    border: 5px solid black;
+    padding: 1em;
+  }
+  .explanation{
+    margin-top: 0;
+    border: 5px solid black;
+    padding: 0;
+  }
+  abbr {
+    height: 0;
+    width: 0;
+  }
+}
