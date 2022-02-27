@@ -53,11 +53,6 @@ table {
   border-spacing: 0;
 }
 
-header {
-  border: 5px solid black;
-  padding: 10px;
-}
-
 body {
   /* this is the page background */
   background-color: #849e85;
@@ -73,7 +68,7 @@ body {
 }
 
 header {
-  background-color: #915d33;
+  background-color: #19191a;
 }
 
 .cd-logo {
