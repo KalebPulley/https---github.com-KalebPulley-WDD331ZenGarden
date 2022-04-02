@@ -36,6 +36,9 @@ header {
     position: fixed;
     top: 10em;
     width: 20%;
+    @media( max-width: 20%) {
+      width: 100%;
+  }
   }
 
   .intro {
@@ -97,6 +100,7 @@ header {
   /* logo box style */
   background-color: #915d33;
   width: 120px;
+  src: url('https://image.shutterstock.com/image-vector/circular-tree-logo-design-life-600w-1638091621.jpg');
 }
 @media only screen and (min-width: 1024px) {
   .cd-logo {
@@ -406,4 +410,9 @@ main > h1 {
   }
 }
 
+.logo {
+text-align: right;
+padding-bottom: 0em;
+margin-bottom: 0em;
+}
 /*# sourceMappingURL=style-guide.css.map */

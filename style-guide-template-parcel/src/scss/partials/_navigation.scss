@@ -40,6 +40,7 @@ header {
   .cd-nav-trigger span {
     /* hamburger menu */
     background-color: $color-5;
+    
   
     &::before,
     &::after {
@@ -78,3 +79,4 @@ header {
       }
     }
   }
+  
