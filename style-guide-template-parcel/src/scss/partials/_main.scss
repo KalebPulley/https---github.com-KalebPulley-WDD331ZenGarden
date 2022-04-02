@@ -1,10 +1,19 @@
-
-main > h1 {
-    color: $color-2;
+.intro {
+  background-color: $color-4;
+}
+.summary p:last-of-type{
+  background-color: $color-5;
+}
   
-    @include MQ(L) {
-      /* title goes into the header on big devices */
-      color: $color-5;
-    }
-  }
-  
+.preamble{
+  background-color: $color-4;
+}
+.main div{
+  background-color: $color-4;
+}
+footer{
+  background-color: $color-4;
+}
+.explanation{
+  background-color: $color-4;
+}
