@@ -1,8 +1,16 @@
-.cd-box {
-    /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-    border: 1px solid $color-4;
-    border-radius: 3px;
-    background: $color-5;
-    box-shadow: 0 1px 1px rgba(#000, 0.05);
-    padding: 6px;
-  }
+.intro::before {
+  content: "";
+  background: url("../../assets/icons/logo-tree.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 3em;
+  left: 1em;
+	
+}
+@media (min-width: $M){
+  .intro::before {left: 3em;}
+}

@@ -1,19 +1,15 @@
-.intro {
-  background-color: $color-4;
-}
+
 .summary p:last-of-type{
   background-color: $color-5;
+  font-size: small;
 }
-  
-.preamble{
+.summary p:first-of-type{
   background-color: $color-4;
 }
-.main div{
-  background-color: $color-4;
-}
-footer{
-  background-color: $color-4;
-}
+.preamble,
+.main div,
+footer,
+.sidebar,
 .explanation{
   background-color: $color-4;
 }

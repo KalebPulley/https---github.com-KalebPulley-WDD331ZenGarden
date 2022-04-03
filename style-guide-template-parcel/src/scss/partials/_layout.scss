@@ -27,67 +27,79 @@ $L:     1600px;
 
 header{
   border: 5px solid black;
+  border-bottom: none;
   padding: 10px;
+}
+h1, h2 {
+  margin-left: 150px;
+}
+
+.summary p:first-of-type {
+  border: 5px solid black;
+  border-top: none;
+  margin-top: 0;
+  padding: 1em;
+}
+.preamble, .main div, footer, .explanation{
+  border: 5px solid black;
+  padding: 1em;
+  margin-top: 1em;
+}
+footer {
+  margin-bottom: 5em;
 }
 
 @media (min-width: $M) {
-  .page-wrapper{
-    padding: 2em;
-  }
   header{
+    margin-top: 0;
     height: 10em;
     position: relative;
     text-align: center;
     border-bottom: 0px;
   }
+  footer {
+    margin-bottom: 1em;
+  }
+  h2 {
+    margin:0;
+    margin-left: 150px;
+  }
   .summary p:first-of-type{
-    border: 5px solid black;
-    padding: 1em;
-    margin-top: 0;
-    margin-bottom: 0;
+    text-align: center;
+    margin: 0;
     border-top: 0px;
   }
   .summary p:last-of-type{
     margin: 0;
     text-align: right;
   }
-  .intro, .main{
+  .main{
     margin-left: 25%;
-    margin-right: 25%;
   }
   .sidebar{
     padding: 1em;
+    z-index: 2;
     background-color: $color-4;
     border: 2px solid black;
-    position: fixed;
-    top: 10em;
+    position: absolute;
+    left: .5em;
+    top: 20.5em;
     width: 20%;
   }
   .intro{
-    margin-top: 10em;
+    margin-top: 0;
   }
   .preamble{
-    margin-top: 0;
-    border: 5px solid black;
-    padding: 1em;
+    margin-left: 25%;
   }
   .preamble > h3{
     text-align: center;
   }
-  .main div{
+  .main div,footer, .explanation{
     margin-top: 1em;
-    border: 5px solid black;
-    padding: 1em;
-
-  }
-  footer{
-    margin-top: 1em;
-    border: 5px solid black;
-    padding: 1em;
   }
   .explanation{
     margin-top: 0;
-    border: 5px solid black;
     padding: 0;
   }
   abbr {
